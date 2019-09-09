@@ -1,0 +1,5 @@
+xcopy zip output /E
+move shrp\image-new.img output\Files\SHRP\epicx\
+ren output\Files\SHRP\epicx\image-new.img recovery.img
+cd output
+7za a shrp_v2.zip Files META-INF
